@@ -45,7 +45,7 @@
     "beforeDevCommand": "cd cinny && npm start",
     "devUrl": "http://localhost:8080"
   },
-  "productName": "Cinny",
+  "productName": "Cannella",
   "mainBinaryName": "cinny",
   "version": "4.12.7",
   "identifier": "in.cinny.app",

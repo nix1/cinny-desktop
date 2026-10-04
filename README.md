@@ -1,4 +1,15 @@
-# Cinny desktop
+# Cannella
+
+Cannella is a fork of [Cinny](https://github.com/cinnyapp/cinny-desktop), a Matrix client. It adds:
+
+- Matrix threads: a thread side panel, thread summaries in the timeline and thread unread counts (`Cmd/Ctrl+Shift+T`).
+- Local full-text message search covering encrypted (E2EE) rooms.
+
+The web app lives in the [nix1/cinny](https://github.com/nix1/cinny/tree/threads) fork (`threads` branch).
+
+---
+
+## Upstream Cinny desktop
 
 <a href="https://github.com/cinnyapp/cinny-desktop/releases">
   <img alt="GitHub release downloads" src="https://img.shields.io/github/downloads/cinnyapp/cinny-desktop/total?style=social"></a>

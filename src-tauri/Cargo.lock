@@ -523,6 +523,7 @@ checksum = "6e4de3bc4ea267985becf712dc6d9eed8b04c953b3fcfb339ebc87acd9804901"
 name = "cinny"
 version = "4.12.7"
 dependencies = [
+ "regex",
  "serde",
  "serde_json",
  "tauri",
@@ -540,6 +541,8 @@ dependencies = [
  "tauri-plugin-shell",
  "tauri-plugin-updater",
  "tauri-plugin-window-state",
+ "tokio",
+ "url",
 ]
 
 [[package]]

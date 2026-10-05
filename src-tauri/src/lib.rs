@@ -4,6 +4,7 @@
 )]
 
 // mod menu;
+mod link_preview;
 
 use tauri::{webview::{NewWindowResponse, WebviewWindowBuilder}, WebviewUrl, TitleBarStyle};
 use tauri_plugin_opener::OpenerExt;
@@ -49,6 +50,7 @@ pub fn run() {
         .plugin(tauri_plugin_localhost::Builder::new(port).build())
         .plugin(tauri_plugin_window_state::Builder::default().build())
         .plugin(tauri_plugin_opener::init())
+        .invoke_handler(tauri::generate_handler![link_preview::link_preview])
         .setup(move |app| {
             #[cfg(feature = "updater")]
             {
